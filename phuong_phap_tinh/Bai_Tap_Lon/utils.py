@@ -164,10 +164,11 @@ def plot_orbit(e, E, M, canvas, ax):
 
         # --- Add Text with Key Values ---
         info_text = (f"Inputs: e = {e:.3f}, M = {np.degrees(M):.2f}°\n"
-                     f"Result: E = {E_degrees:.2f}°, ν = {nu_degrees:.2f}°")
-        # Position text box in upper left corner using axes coordinates
-        info_label = ax.text(0.02, 0.98, info_text, transform=ax.transAxes, fontsize=9,
-                             verticalalignment='top', bbox=dict(boxstyle='round,pad=0.3', fc='wheat', alpha=0.5))
+                 f"Result: E = {E_degrees:.2f}°, ν = {nu_degrees:.2f}°")
+        # Position text box in upper right corner using axes coordinates
+        info_label = ax.text(0.98, 0.98, info_text, transform=ax.transAxes, fontsize=9,
+                     verticalalignment='top', horizontalalignment='right',
+                     bbox=dict(boxstyle='round,pad=0.3', fc='wheat', alpha=0.5))
         plot_elements['labels'].append(info_label)
 
 
