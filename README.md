@@ -9,6 +9,7 @@ trong đó:
 - $M$ là dị thường trung bình (Mean Anomaly)
 - $E$ là góc dị thường (Eccentric Anomaly)
 - $e$ là độ lệch tâm của quỹ đạo (Eccentricity)
+<img src="phuong_phap_tinh\Bai_Tap_Lon\graph_plotted.png" alt="Orbit Plot" width="600">
 
 Chương trình sử dụng nhiều phương pháp số để giải phương trình trên.
 
@@ -60,6 +61,6 @@ Dự án triển khai ba phương pháp chính để tìm nghiệm của phươn
 ## Minh họa
 Chương trình vẽ đồ thị biểu diễn quỹ đạo elip dựa trên các nghiệm tìm được của phương trình Kepler.
 
-<img src="phuong_phap_tinh/Bai_Tap_Lon/minh_hoa2.png" alt="Orbit Plot" width="400">
+<img src="phuong_phap_tinh/Bai_Tap_Lon/minh_hoa2.png" alt="Orbit Plot" width="600">
 
-<img src="phuong_phap_tinh\Bai_Tap_Lon\minh_hoa2.png" alt="Orbit Plot" width="400">
+<img src="phuong_phap_tinh\Bai_Tap_Lon\minh_hoa2.png" alt="Orbit Plot" width="600">
