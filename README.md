@@ -3,7 +3,7 @@
 ## Giới thiệu
 Dự án này cung cấp công cụ giải phương trình Kepler để tính toán vị trí của một hành tinh trong quỹ đạo elip quanh một ngôi sao. Phương trình Kepler có dạng:
 
-$$ M = E - e \sin(E) $$
+$$M = E - e \sin(E)$$
 
 trong đó:
 - $M$ là dị thường trung bình (Mean Anomaly)
@@ -34,7 +34,7 @@ Dự án triển khai ba phương pháp chính để tìm nghiệm của phươn
 1. Chọn giá trị ban đầu $E_0$, thường là $M$.
 2. Áp dụng công thức:
 
-   $$ E_{n+1} = E_n - \frac{f(E_n)}{f'(E_n)} $$
+   $$E_{n+1} = E_n - \frac{f(E_n)}{f'(E_n)}$$
 
    với:
    - $f(E) = E - e \sin(E) - M$
@@ -46,7 +46,7 @@ Dự án triển khai ba phương pháp chính để tìm nghiệm của phươn
 1. Chọn hai giá trị ban đầu $E_0$ và $E_1$.
 2. Áp dụng công thức:
 
-   $$ E_{n+1} = E_n - f(E_n) \frac{E_n - E_{n-1}}{f(E_n) - f(E_{n-1})} $$
+   $$E_{n+1} = E_n - f(E_n) \frac{E_n - E_{n-1}}{f(E_n) - f(E_{n-1})}$$
 
 3. Lặp lại cho đến khi đạt độ chính xác mong muốn.
 
